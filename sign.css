@@ -1,0 +1,25 @@
+#image{
+    width: 100%;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 0%;
+    height: 180%px;
+
+
+}
+body{
+    background-color: gray;
+    text-align: center;
+    display: flex;
+
+}
+.container{
+    display: flex;
+}
+.form{
+    margin-right: 400px;
+    float: right;
+    display: flex;
+    padding: 0%;
+}

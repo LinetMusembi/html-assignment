@@ -5,42 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
-    <style>
-        #image{
-            width: 65%;
-            float: left;
-            margin-right: 20px;
-            border-radius: 20px;
-        
-        }
-        #emoji{
-            float: inline-start;
-            width: 42px;
-            height: 42px;
-        }
-        
-
-        .form{
-            text-align: center;
-        }
-        body{
-            background-color: gray;
-        }
- #text{
-    font-weight: bold;
- }       
-    </style>
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-    <img src="phone.avif" alt="phone picture" id="image">
+    <div class="containerA">
+
+   <div><img src="phone.avif" alt="phone picture" id="image"></div>
+   <div class="containerC">
     <form>
         <h1>Hey, hello
         <img id="emoji"src="hello.jpeg" alt="hello image">
         </h1>
-        
-        </label>
-        <br>
-        <br>
+        <p>Enter the information you entered while registering</p>
         <label>Email</label>
         <input type="email" placeholder="email"/>
         <br>
@@ -56,13 +33,13 @@
     <br>
     
     <label>
-        Do not have an account?
-        <button><a href="signup.html" id="text">Sign-Up</a></button>
+        Do not have an account?<a href="signup.html" id="text">Sign-Up</a></button>
     </label>
-        <br>
-        <br>
-    <button>sign in with google</button>
+<p>or</p>
+    <button>Sign in with google</button>
     
     </form>
+    </div>
+    </div>
 </body>
 </html>

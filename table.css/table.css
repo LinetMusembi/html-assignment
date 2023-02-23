@@ -1,0 +1,17 @@
+table,tr,th,td{
+    border-style: ridge;
+    border-spacing: 4px;
+    background-color: #e599f7;
+    width: 50%;
+    border-collapse: collapse;
+    height: 50px;
+    width: 25px;
+    margin: 32px auto;
+    
+}
+body{
+    background-color: gray;
+}
+button{
+    margin: 256px 512px;
+}

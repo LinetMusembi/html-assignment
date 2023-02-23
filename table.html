@@ -5,20 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
-    <style>
-        table,tr,th,td{
-            border-style: ridge;
-            border-spacing: 4px;
-            background-color: blueviolet;
-            width: 50%;
-            
-        }
-        body{
-            background-color: gray;
-        }
-    </style>
+    <link rel="stylesheet" href="table.css/">
 </head>
 <body>
+<style>
+    table,tr,th,td{
+        border-style: ridge;
+        border-spacing: 4px;
+        background-color: #e599f7;
+        width: 50%;
+        border-collapse: collapse;
+        height: 50px;
+        width: 25px;
+        margin: 32px auto;
+        
+    }
+    body{
+        background-color: gray;
+    }
+    button{
+        margin: 256px 512px;
+    }
+    </style>
+    <div class="container1">
     <table>
         <tr>
             <th>First name</th>
@@ -74,6 +83,8 @@
             <td>gathugrace@gmail.com</td>
         </tr>
     </table>
+    <button>SIGNIN</button>
+    </div>
     
 </body>
 </html>

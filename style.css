@@ -1,0 +1,26 @@
+.containerA{
+    display: flex;
+    flex-direction: row;   
+}
+#image{
+    float:left;
+    margin-left: 400px;
+    height: 600px;
+    margin: 20px;
+}
+.form{
+    padding-left: 80px;
+
+}
+.containerC{
+    margin-right: 50%
+    
+    
+}
+.body{
+    text-align: center;
+    display: flex;
+    margin-right: auto;
+    float: left;
+    margin: top 50px;
+}
